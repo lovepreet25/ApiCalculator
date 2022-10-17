@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculator", "ApiCalculator.csproj", "{808778DB-EF35-4D34-9A87-BFBF7A894945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTestProject", "..\CalculatorTestProject\CalculatorTestProject.csproj", "{91248BA8-9485-47C2-BCFD-29772F612DDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionTests", "..\CalculatorTestProject\AdditionTests.csproj", "{91248BA8-9485-47C2-BCFD-29772F612DDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationLibrary", "..\CalculationLibrary\CalculationLibrary.csproj", "{3F36E75A-663F-4D52-8B93-87C94634B373}"
 EndProject

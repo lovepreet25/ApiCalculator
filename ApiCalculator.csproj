@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalculationLibrary\CalculationLibrary.csproj" />
-    <ProjectReference Include="..\CalculatorTestProject\CalculatorTestProject.csproj" />
+    <ProjectReference Include="..\CalculatorTestProject\AdditionTests.csproj" />
   </ItemGroup>
 
 </Project>
