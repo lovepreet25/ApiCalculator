@@ -9,27 +9,37 @@ namespace ApiCalculator.Controllers
     {
         [HttpGet]
         // method for addition
-        public int Addition(int a, int b)
+        public double Addition(double a, double b)
         {
-            return a + b;
+            return CalculationLibrary.Calculations.Addition(a, b);
+
         }
         [HttpGet]
         //method for subtracttionn
-        public int Subtraction(int a, int b)
+        public double Subtraction(double a, double b)
         {
-            return a - b;
+            return CalculationLibrary.Calculations.Subtraction(a, b);
         }
         [HttpGet]
         //method multiplication of the numbers
-        public int Multiplication(int a, int b)
+        public double Multiplication(double a, double b)
         {
-            return a * b;
+            return CalculationLibrary.Calculations.Multiplication(a, b);
         }
         //method fot dividing the numbers
         [HttpGet]
-        public int dividation(int a, int b)
+        public double dividation(double a, double b)
         {
-            return a / b;
+            double result = 0;
+            try
+            {
+                result = CalculationLibrary.Calculations.Dividation(a, b);
+            }
+            catch(DivideByZeroException)
+            {
+                Response.StatusCode = 400;
+            }
+            return result;
         }
     }
 }
