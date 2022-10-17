@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalculationLibrary\CalculationLibrary.csproj" />
+    <ProjectReference Include="..\CalculatorTestProject\CalculatorTestProject.csproj" />
   </ItemGroup>
 
 </Project>
