@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionTests", "..\Calcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationLibrary", "..\CalculationLibrary\CalculationLibrary.csproj", "{3F36E75A-663F-4D52-8B93-87C94634B373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubractionTestProject", "..\SubractionTestProject\SubractionTestProject.csproj", "{D9AA20ED-0F3B-4AEE-913A-F1AC180800E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationTests", "..\MultiplicationTests\MultiplicationTests.csproj", "{BDF3E325-F1CB-473F-AC8B-981DE88962F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividationTests", "..\DividationTests\DividationTests.csproj", "{18482A07-9CAC-4AD2-9923-2ADF68E42A55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{3F36E75A-663F-4D52-8B93-87C94634B373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F36E75A-663F-4D52-8B93-87C94634B373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F36E75A-663F-4D52-8B93-87C94634B373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AA20ED-0F3B-4AEE-913A-F1AC180800E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AA20ED-0F3B-4AEE-913A-F1AC180800E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AA20ED-0F3B-4AEE-913A-F1AC180800E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AA20ED-0F3B-4AEE-913A-F1AC180800E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF3E325-F1CB-473F-AC8B-981DE88962F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF3E325-F1CB-473F-AC8B-981DE88962F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF3E325-F1CB-473F-AC8B-981DE88962F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF3E325-F1CB-473F-AC8B-981DE88962F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18482A07-9CAC-4AD2-9923-2ADF68E42A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18482A07-9CAC-4AD2-9923-2ADF68E42A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18482A07-9CAC-4AD2-9923-2ADF68E42A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18482A07-9CAC-4AD2-9923-2ADF68E42A55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
