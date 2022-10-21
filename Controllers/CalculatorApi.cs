@@ -26,7 +26,7 @@ namespace ApiCalculator.Controllers
         {
             return CalculationLibrary.Calculations.Multiplication(a, b);
         }
-        //method fot dividing the numbers
+        //method for dividing the numbers
         [HttpGet]
         public double dividation(double a, double b)
         {
