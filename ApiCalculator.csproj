@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -12,11 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalculationLibrary\CalculationLibrary.csproj" />
-    <ProjectReference Include="..\CalculatorTestProject\AdditionTests.csproj" />
-    <ProjectReference Include="..\DividationTests\DividationTests.csproj" />
-    <ProjectReference Include="..\MultiplicationTests\MultiplicationTests.csproj" />
-    <ProjectReference Include="..\SubractionTestProject\SubractionTestProject.csproj" />
-   
   </ItemGroup>
 
 </Project>
